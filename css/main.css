@@ -1,0 +1,154 @@
+body {
+  font-family: Lato !important;
+}
+
+body .main-header {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+body .main-header nav {
+  background: #283655 !important;
+  text-transform: uppercase !important;
+}
+
+body section#services {
+  background: #283655;
+  margin-bottom: -40px;
+}
+
+body section#services .card {
+  background: transparent;
+  color: #d1d7e0;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+body section#services .card i {
+  margin-top: 80% !important;
+  margin-right: -10px;
+  border-radius: 50%;
+  color: #283655;
+  background: #d1d7e0;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body section#services .card p.heading {
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+}
+
+body section#services .card:hover {
+  color: white;
+  background: #273454;
+}
+
+body section#services .card:hover i {
+  background: white;
+}
+
+body section#hiring {
+  color: gray;
+}
+
+body section#hiring .main {
+  height: auto;
+}
+
+body section#hiring .main .container {
+  margin-top: 80px;
+}
+
+body section#hiring .main .container ul li {
+  font-size: 18px;
+  color: #d1d7e0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+body section#hiring .main .container .card {
+  text-align: left !important;
+}
+
+body section#hiring .main .container .card span.card-title {
+  font-family: Fjalla One;
+  color: white;
+}
+
+body section#hiring .main .container .card p.name {
+  font-size: 21px;
+  color: #d1d7e0;
+  font-weight: bold;
+}
+
+body section#hiring .main .container .card p.info {
+  margin-left: 1.5em;
+  color: #d1d7e0;
+}
+
+body section#about .card span.card-title {
+  font-family: Fjalla One;
+  color: #283655;
+  font-size: 32px !important;
+  text-align: center;
+}
+
+body section#contact {
+  background: #283655;
+  color: #d1d7e0;
+  padding-bottom: 30px;
+}
+
+body h3.heading {
+  padding-top: 40px !important;
+  font-family: Fjalla One;
+  color: #292929;
+}
+
+body h3.heading-white {
+  padding-top: 80px !important;
+  font-family: Fjalla One;
+  color: white;
+}
+
+body p.description {
+  font-size: 17px;
+  color: #545454;
+}
+
+body p.description span.highlight {
+  font-weight: bold;
+  color: #283655 !important;
+}
+
+body p.description-white {
+  font-size: 17px;
+  color: #d1d7e0;
+}
+
+body p.description-white span.highlight {
+  font-weight: bold;
+  color: #283655 !important;
+}
+
+body p.core-values {
+  color: #283655;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -5px;
+}
+
+body p.core-tagline {
+  margin-top: -30px;
+  color: #283655;
+  font-size: 16px;
+}
+/*# sourceMappingURL=main.css.map */
